@@ -1,0 +1,298 @@
+/* ==========================================
+   C#基礎ゲーム集
+   style.css
+   ========================================== */
+
+
+/* ---------- 共通 ---------- */
+
+* {
+
+    margin: 0;
+
+    padding: 0;
+
+    box-sizing: border-box;
+
+}
+
+
+body {
+
+    background: #f5f7fb;
+
+    color: #333;
+
+    font-family: "Yu Gothic UI", "Meiryo", sans-serif;
+
+}
+
+
+
+/* ---------- アプリ ---------- */
+
+
+#app {
+
+    width: 100%;
+
+    max-width: 900px;
+
+    margin: 40px auto;
+
+    padding: 20px;
+
+}
+
+
+
+/* ---------- 画面 ---------- */
+
+
+.title-screen {
+
+
+    background: white;
+
+
+    border-radius: 15px;
+
+
+    padding: 60px;
+
+
+    min-height: 600px;
+
+
+    box-shadow: 0 5px 20px rgba(0,0,0,0.08);
+
+
+    text-align: center;
+
+
+}
+
+
+
+/* ---------- タイトル ---------- */
+
+
+.title-screen h1 {
+
+
+    font-size: 48px;
+
+
+    margin-bottom: 20px;
+
+
+    color: #1565c0;
+
+
+}
+
+
+
+.version {
+
+
+    color: #777;
+
+
+    margin-bottom: 20px;
+
+
+    font-size: 20px;
+
+
+}
+
+
+
+
+/* ---------- ボタン ---------- */
+
+
+.main-button {
+
+
+    width: 300px;
+
+
+    padding: 18px;
+
+
+    font-size: 24px;
+
+
+    border: none;
+
+
+    border-radius: 10px;
+
+
+    background: #1976d2;
+
+
+    color: white;
+
+
+    cursor: pointer;
+
+
+    transition: .2s;
+
+
+}
+
+
+
+.main-button:hover {
+
+
+    background: #0d47a1;
+
+
+    transform: scale(1.03);
+
+
+}
+
+
+
+.main-button:disabled {
+
+
+    background: #b0bec5;
+
+
+    cursor: not-allowed;
+
+
+    transform: none;
+
+
+}
+
+
+
+
+/* ---------- 問題画面 ---------- */
+
+
+#timerMessage,
+#scoreMessage {
+
+
+    margin-bottom: 10px;
+
+
+}
+
+
+
+/*
+   問題エリア
+   タイトル画面内では中央配置
+   中身だけ左寄せ
+*/
+
+
+.question-area {
+
+
+    width: 100%;
+
+
+    min-height: 220px;
+
+
+    margin-top: 20px;
+
+
+}
+
+
+
+/*
+   問題文・コード表示
+*/
+
+
+.question-text {
+
+
+    width: 100%;
+
+
+    text-align: left;
+
+
+    white-space: pre-wrap;
+
+
+    line-height: 1.6;
+
+
+    font-size: 24px;
+
+
+    margin: 0;
+
+
+}
+
+
+
+/* ---------- 結果表示 ---------- */
+
+
+.result-area {
+
+
+    min-height: 50px;
+
+
+    margin-bottom: 10px;
+
+
+    font-size: 22px;
+
+
+}
+
+
+
+
+/* ---------- 回答ボタン ---------- */
+
+
+.answer-area {
+
+
+    display: grid;
+
+
+    grid-template-columns: repeat(2, 220px);
+
+
+    justify-content: center;
+
+
+    gap: 10px;
+
+
+}
+
+
+
+.answerButton {
+
+
+    width: 220px;
+
+
+    margin: 10px;
+
+
+}

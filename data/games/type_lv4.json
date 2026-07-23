@@ -1,0 +1,202 @@
+[
+    {
+        "question": "次のメソッドの定義で ■ は何？\n\nint calc()\n{\n    ■ result;\n    return result;\n}",
+        "choices": [
+            "int",
+            "double",
+            "string",
+            "bool"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "次のメソッドの定義で ■ は何？\n\nint getScore()\n{\n    ■ score;\n    return score;\n}",
+        "choices": [
+            "int",
+            "double",
+            "string",
+            "bool"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "次のメソッドの定義で ■ は何？\n\nint getCount()\n{\n    ■ count;\n    return count;\n}",
+        "choices": [
+            "int",
+            "double",
+            "string",
+            "bool"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "次のメソッドの定義で ■ は何？\n\nint getYear()\n{\n    ■ year;\n    return year;\n}",
+        "choices": [
+            "int",
+            "double",
+            "string",
+            "bool"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "次のメソッドの定義で ■ は何？\n\nint getNumber()\n{\n    ■ number;\n    return number;\n}",
+        "choices": [
+            "int",
+            "double",
+            "string",
+            "bool"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "次のメソッドの定義で ■ は何？\n\ndouble getAverage()\n{\n    ■ average;\n    return average;\n}",
+        "choices": [
+            "int",
+            "double",
+            "string",
+            "bool"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "次のメソッドの定義で ■ は何？\n\ndouble getPrice()\n{\n    ■ price;\n    return price;\n}",
+        "choices": [
+            "int",
+            "double",
+            "string",
+            "bool"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "次のメソッドの定義で ■ は何？\n\ndouble getTemperature()\n{\n    ■ temperature;\n    return temperature;\n}",
+        "choices": [
+            "int",
+            "double",
+            "string",
+            "bool"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "次のメソッドの定義で ■ は何？\n\ndouble getWeight()\n{\n    ■ weight;\n    return weight;\n}",
+        "choices": [
+            "int",
+            "double",
+            "string",
+            "bool"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "次のメソッドの定義で ■ は何？\n\ndouble getRate()\n{\n    ■ rate;\n    return rate;\n}",
+        "choices": [
+            "int",
+            "double",
+            "string",
+            "bool"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "次のメソッドの定義で ■ は何？\n\nstring getName()\n{\n    ■ name;\n    return name;\n}",
+        "choices": [
+            "int",
+            "double",
+            "string",
+            "bool"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "次のメソッドの定義で ■ は何？\n\nstring getMessage()\n{\n    ■ message;\n    return message;\n}",
+        "choices": [
+            "int",
+            "double",
+            "string",
+            "bool"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "次のメソッドの定義で ■ は何？\n\nstring getTitle()\n{\n    ■ title;\n    return title;\n}",
+        "choices": [
+            "int",
+            "double",
+            "string",
+            "bool"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "次のメソッドの定義で ■ は何？\n\nstring getLanguage()\n{\n    ■ language;\n    return language;\n}",
+        "choices": [
+            "int",
+            "double",
+            "string",
+            "bool"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "次のメソッドの定義で ■ は何？\n\nstring getCountry()\n{\n    ■ country;\n    return country;\n}",
+        "choices": [
+            "int",
+            "double",
+            "string",
+            "bool"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "次のメソッドの定義で ■ は何？\n\nbool isClear()\n{\n    ■ clear;\n    return clear;\n}",
+        "choices": [
+            "int",
+            "double",
+            "string",
+            "bool"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "次のメソッドの定義で ■ は何？\n\nbool isOpen()\n{\n    ■ open;\n    return open;\n}",
+        "choices": [
+            "int",
+            "double",
+            "string",
+            "bool"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "次のメソッドの定義で ■ は何？\n\nbool checkResult()\n{\n    ■ result;\n    return result;\n}",
+        "choices": [
+            "int",
+            "double",
+            "string",
+            "bool"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "次のメソッドの定義で ■ は何？\n\nbool canPlay()\n{\n    ■ play;\n    return play;\n}",
+        "choices": [
+            "int",
+            "double",
+            "string",
+            "bool"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "次のメソッドの定義で ■ は何？\n\nbool hasItem()\n{\n    ■ item;\n    return item;\n}",
+        "choices": [
+            "int",
+            "double",
+            "string",
+            "bool"
+        ],
+        "answer": 3
+    }
+]

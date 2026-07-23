@@ -1,0 +1,202 @@
+[
+    {
+        "question": "下記の変数宣言の ■ は何？\n\n■ age = 20;",
+        "choices": [
+            "int",
+            "double",
+            "string",
+            "bool"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "下記の変数宣言の ■ は何？\n\n■ height = 170.5;",
+        "choices": [
+            "int",
+            "double",
+            "string",
+            "bool"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "下記の変数宣言の ■ は何？\n\n■ name = \"Main\";",
+        "choices": [
+            "int",
+            "double",
+            "string",
+            "bool"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "下記の変数宣言の ■ は何？\n\n■ isOpen = false;",
+        "choices": [
+            "int",
+            "double",
+            "string",
+            "bool"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "下記の変数宣言の ■ は何？\n\n■ score = 100;",
+        "choices": [
+            "int",
+            "double",
+            "string",
+            "bool"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "下記の変数宣言の ■ は何？\n\n■ price = 2500.5;",
+        "choices": [
+            "int",
+            "double",
+            "string",
+            "bool"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "下記の変数宣言の ■ は何？\n\n■ title = \"C#ゲーム\";",
+        "choices": [
+            "int",
+            "double",
+            "string",
+            "bool"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "下記の変数宣言の ■ は何？\n\n■ gameClear = true;",
+        "choices": [
+            "int",
+            "double",
+            "string",
+            "bool"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "下記の変数宣言の ■ は何？\n\n■ count = -50;",
+        "choices": [
+            "int",
+            "double",
+            "string",
+            "bool"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "下記の変数宣言の ■ は何？\n\n■ temperature = 36.5;",
+        "choices": [
+            "int",
+            "double",
+            "string",
+            "bool"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "下記の変数宣言の ■ は何？\n\n■ message = \"Hello\";",
+        "choices": [
+            "int",
+            "double",
+            "string",
+            "bool"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "下記の変数宣言の ■ は何？\n\n■ result = true;",
+        "choices": [
+            "int",
+            "double",
+            "string",
+            "bool"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "下記の変数宣言の ■ は何？\n\n■ year = 2026;",
+        "choices": [
+            "int",
+            "double",
+            "string",
+            "bool"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "下記の変数宣言の ■ は何？\n\n■ average = 75.5;",
+        "choices": [
+            "int",
+            "double",
+            "string",
+            "bool"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "下記の変数宣言の ■ は何？\n\n■ language = \"C#\";",
+        "choices": [
+            "int",
+            "double",
+            "string",
+            "bool"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "下記の変数宣言の ■ は何？\n\n■ playing = true;",
+        "choices": [
+            "int",
+            "double",
+            "string",
+            "bool"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "下記の変数宣言の ■ は何？\n\n■ number = 999;",
+        "choices": [
+            "int",
+            "double",
+            "string",
+            "bool"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "下記の変数宣言の ■ は何？\n\n■ weight = 62.8;",
+        "choices": [
+            "int",
+            "double",
+            "string",
+            "bool"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "下記の変数宣言の ■ は何？\n\n■ country = \"Japan\";",
+        "choices": [
+            "int",
+            "double",
+            "string",
+            "bool"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "下記の変数宣言の ■ は何？\n\n■ finished = false;",
+        "choices": [
+            "int",
+            "double",
+            "string",
+            "bool"
+        ],
+        "answer": 3
+    }
+]

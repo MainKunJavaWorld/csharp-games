@@ -1,0 +1,205 @@
+[
+    {
+        "question": "addPoint(50); と呼び出すメソッドを作成する。\n■を答えなさい。\n\nint addPoint(■ point)\n{\n    return point + 10;\n}",
+        "choices": [
+            "int",
+            "double",
+            "string",
+            "bool"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "calcTotal(100); と呼び出すメソッドを作成する。\n■を答えなさい。\n\nint calcTotal(■ value)\n{\n    return value * 2;\n}",
+        "choices": [
+            "int",
+            "double",
+            "string",
+            "bool"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "changeLevel(3); と呼び出すメソッドを作成する。\n■を答えなさい。\n\nint changeLevel(■ level)\n{\n    return level + 1;\n}",
+        "choices": [
+            "int",
+            "double",
+            "string",
+            "bool"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "addCount(20); と呼び出すメソッドを作成する。\n■を答えなさい。\n\nint addCount(■ count)\n{\n    return count + 5;\n}",
+        "choices": [
+            "int",
+            "double",
+            "string",
+            "bool"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "getNumber(300); と呼び出すメソッドを作成する。\n■を答えなさい。\n\nint getNumber(■ number)\n{\n    return number - 50;\n}",
+        "choices": [
+            "int",
+            "double",
+            "string",
+            "bool"
+        ],
+        "answer": 0
+    },
+
+    {
+        "question": "calcAverage(85.5); と呼び出すメソッドを作成する。\n■を答えなさい。\n\ndouble calcAverage(■ value)\n{\n    return value / 2;\n}",
+        "choices": [
+            "int",
+            "double",
+            "string",
+            "bool"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "calcPrice(120.5); と呼び出すメソッドを作成する。\n■を答えなさい。\n\ndouble calcPrice(■ price)\n{\n    return price * 1.1;\n}",
+        "choices": [
+            "int",
+            "double",
+            "string",
+            "bool"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "setWeight(60.5); と呼び出すメソッドを作成する。\n■を答えなさい。\n\ndouble setWeight(■ weight)\n{\n    return weight + 2;\n}",
+        "choices": [
+            "int",
+            "double",
+            "string",
+            "bool"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "calcArea(5.2); と呼び出すメソッドを作成する。\n■を答えなさい。\n\ndouble calcArea(■ length)\n{\n    return length * length;\n}",
+        "choices": [
+            "int",
+            "double",
+            "string",
+            "bool"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "calcSpeed(80.5); と呼び出すメソッドを作成する。\n■を答えなさい。\n\ndouble calcSpeed(■ speed)\n{\n    return speed / 2;\n}",
+        "choices": [
+            "int",
+            "double",
+            "string",
+            "bool"
+        ],
+        "answer": 1
+    },
+
+    {
+        "question": "showName(\"太郎\"); と呼び出すメソッドを作成する。\n■を答えなさい。\n\nvoid showName(■ name)\n{\n    label.Text = name + \"さん\";\n}",
+        "choices": [
+            "int",
+            "double",
+            "string",
+            "bool"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "showMessage(\"こんにちは\"); と呼び出すメソッドを作成する。\n■を答えなさい。\n\nvoid showMessage(■ message)\n{\n    label.Text = message;\n}",
+        "choices": [
+            "int",
+            "double",
+            "string",
+            "bool"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "setTitle(\"C#ゲーム\"); と呼び出すメソッドを作成する。\n■を答えなさい。\n\nvoid setTitle(■ title)\n{\n    label.Text = title;\n}",
+        "choices": [
+            "int",
+            "double",
+            "string",
+            "bool"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "showCity(\"横浜\"); と呼び出すメソッドを作成する。\n■を答えなさい。\n\nvoid showCity(■ city)\n{\n    label.Text = city + \"市\";\n}",
+        "choices": [
+            "int",
+            "double",
+            "string",
+            "bool"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "showFood(\"ラーメン\"); と呼び出すメソッドを作成する。\n■を答えなさい。\n\nvoid showFood(■ food)\n{\n    label.Text = food + \"を食べました\";\n}",
+        "choices": [
+            "int",
+            "double",
+            "string",
+            "bool"
+        ],
+        "answer": 2
+    },
+
+    {
+        "question": "checkLogin(true); と呼び出すメソッドを作成する。\n■を答えなさい。\n\nvoid checkLogin(■ flag)\n{\n    if(flag)\n    {\n        label.Text = \"ログイン成功\";\n    }\n}",
+        "choices": [
+            "int",
+            "double",
+            "string",
+            "bool"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "checkClear(false); と呼び出すメソッドを作成する。\n■を答えなさい。\n\nvoid checkClear(■ clear)\n{\n    if(clear)\n    {\n        label.Text = \"クリア\";\n    }\n}",
+        "choices": [
+            "int",
+            "double",
+            "string",
+            "bool"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "isOpen(true); と呼び出すメソッドを作成する。\n■を答えなさい。\n\nvoid isOpen(■ open)\n{\n    if(open)\n    {\n        label.Text = \"開いています\";\n    }\n}",
+        "choices": [
+            "int",
+            "double",
+            "string",
+            "bool"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "canPlay(false); と呼び出すメソッドを作成する。\n■を答えなさい。\n\nvoid canPlay(■ play)\n{\n    if(play)\n    {\n        label.Text = \"遊べます\";\n    }\n}",
+        "choices": [
+            "int",
+            "double",
+            "string",
+            "bool"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "hasItem(true); と呼び出すメソッドを作成する。\n■を答えなさい。\n\nvoid hasItem(■ item)\n{\n    if(item)\n    {\n        label.Text = \"アイテムあり\";\n    }\n}",
+        "choices": [
+            "int",
+            "double",
+            "string",
+            "bool"
+        ],
+        "answer": 3
+    }
+]

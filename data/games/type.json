@@ -1,0 +1,202 @@
+[
+    {
+        "question": "123",
+        "choices": [
+            "int",
+            "double",
+            "string",
+            "bool"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "3.14",
+        "choices": [
+            "int",
+            "double",
+            "string",
+            "bool"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "\"Hello\"",
+        "choices": [
+            "int",
+            "double",
+            "string",
+            "bool"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "true",
+        "choices": [
+            "int",
+            "double",
+            "string",
+            "bool"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "-50",
+        "choices": [
+            "int",
+            "double",
+            "string",
+            "bool"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "0.5",
+        "choices": [
+            "int",
+            "double",
+            "string",
+            "bool"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "\"C#\"",
+        "choices": [
+            "int",
+            "double",
+            "string",
+            "bool"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "false",
+        "choices": [
+            "int",
+            "double",
+            "string",
+            "bool"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "999",
+        "choices": [
+            "int",
+            "double",
+            "string",
+            "bool"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "12.5",
+        "choices": [
+            "int",
+            "double",
+            "string",
+            "bool"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "\"Java\"",
+        "choices": [
+            "int",
+            "double",
+            "string",
+            "bool"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "true",
+        "choices": [
+            "int",
+            "double",
+            "string",
+            "bool"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "0",
+        "choices": [
+            "int",
+            "double",
+            "string",
+            "bool"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "100.0",
+        "choices": [
+            "int",
+            "double",
+            "string",
+            "bool"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "\"Visual Studio\"",
+        "choices": [
+            "int",
+            "double",
+            "string",
+            "bool"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "false",
+        "choices": [
+            "int",
+            "double",
+            "string",
+            "bool"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "-100",
+        "choices": [
+            "int",
+            "double",
+            "string",
+            "bool"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "8.88",
+        "choices": [
+            "int",
+            "double",
+            "string",
+            "bool"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "\"Game\"",
+        "choices": [
+            "int",
+            "double",
+            "string",
+            "bool"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "false",
+        "choices": [
+            "int",
+            "double",
+            "string",
+            "bool"
+        ],
+        "answer": 3
+    }
+]
