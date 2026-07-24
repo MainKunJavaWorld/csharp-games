@@ -304,11 +304,6 @@ export class ScreenManager {
 
 
 
-                <button class="main-button" disabled>
-                    Lv6　戻り値＋仮引数
-                </button>
-
-
 
                 <br><br>
 
