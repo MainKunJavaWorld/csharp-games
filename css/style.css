@@ -3,296 +3,252 @@
    style.css
    ========================================== */
 
-
 /* ---------- 共通 ---------- */
 
 * {
-
-    margin: 0;
-
-    padding: 0;
-
-    box-sizing: border-box;
-
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
 }
-
 
 body {
-
-    background: #f5f7fb;
-
-    color: #333;
-
-    font-family: "Yu Gothic UI", "Meiryo", sans-serif;
-
+    background:#f5f7fb;
+    color:#333;
+    font-family:"Yu Gothic UI","Meiryo",sans-serif;
 }
-
-
 
 /* ---------- アプリ ---------- */
 
-
 #app {
-
-    width: 100%;
-
-    max-width: 900px;
-
-    margin: 40px auto;
-
-    padding: 20px;
-
+    width:100%;
+    max-width:900px;
+    margin:40px auto;
+    padding:20px;
 }
-
-
 
 /* ---------- 画面 ---------- */
 
-
 .title-screen {
-
-
-    background: white;
-
-
-    border-radius: 15px;
-
-
-    padding: 60px;
-
-
-    min-height: 600px;
-
-
-    box-shadow: 0 5px 20px rgba(0,0,0,0.08);
-
-
-    text-align: center;
-
-
+    background:white;
+    border-radius:15px;
+    padding:60px;
+    min-height:600px;
+    box-shadow:0 5px 20px rgba(0,0,0,0.08);
+    text-align:center;
 }
-
-
 
 /* ---------- タイトル ---------- */
 
-
 .title-screen h1 {
-
-
-    font-size: 48px;
-
-
-    margin-bottom: 20px;
-
-
-    color: #1565c0;
-
-
+    font-size:48px;
+    margin-bottom:20px;
+    color:#1565c0;
 }
-
-
 
 .version {
-
-
-    color: #777;
-
-
-    margin-bottom: 20px;
-
-
-    font-size: 20px;
-
-
+    color:#777;
+    margin-bottom:20px;
+    font-size:20px;
 }
 
-
-
-
-/* ---------- ボタン ---------- */
-
+/* ---------- 共通ボタン ---------- */
 
 .main-button {
-
-
-    width: 300px;
-
-
-    padding: 18px;
-
-
-    font-size: 24px;
-
-
-    border: none;
-
-
-    border-radius: 10px;
-
-
-    background: #1976d2;
-
-
-    color: white;
-
-
-    cursor: pointer;
-
-
-    transition: .2s;
-
-
+    width:300px;
+    padding:18px;
+    font-size:24px;
+    border:none;
+    border-radius:10px;
+    background:#1976d2;
+    color:white;
+    cursor:pointer;
+    transition:.2s;
 }
-
-
 
 .main-button:hover {
-
-
-    background: #0d47a1;
-
-
-    transform: scale(1.03);
-
-
+    background:#0d47a1;
+    transform:scale(1.03);
 }
-
-
 
 .main-button:disabled {
-
-
-    background: #b0bec5;
-
-
-    cursor: not-allowed;
-
-
-    transform: none;
-
-
+    background:#b0bec5;
+    cursor:not-allowed;
+    transform:none;
 }
 
+/* ---------- ゲーム選択 ---------- */
 
+.game-card {
+    width:360px;
+    height:110px;
+    margin:15px auto;
+    border:none;
+    border-radius:15px;
+    display:flex;
+    align-items:center;
+    padding:15px 25px;
+    color:white;
+    cursor:pointer;
+    text-align:left;
+    transition:.2s;
+}
 
+.game-card:hover {
+    transform:scale(1.03);
+}
+
+.type-card {
+    background:#1976d2;
+}
+
+.word-card {
+    background:#43a047;
+}
+
+.game-icon {
+    width:70px;
+    height:70px;
+    border-radius:12px;
+    background:white;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size:22px;
+    font-weight:bold;
+    color:#1976d2;
+    margin-right:20px;
+}
+
+.word-card .game-icon {
+    color:#43a047;
+}
+
+.game-text {
+    display:flex;
+    flex-direction:column;
+}
+
+.game-text strong {
+    font-size:28px;
+}
+
+.game-text small {
+    font-size:16px;
+    margin-top:8px;
+}
+
+.game-info {
+    width:360px;
+    margin:25px auto;
+    padding:15px;
+    border-radius:12px;
+    background:#eef5ff;
+    text-align:left;
+}
+
+.game-info h3 {
+    color:#1565c0;
+    margin-bottom:10px;
+}
+
+.game-info p {
+    font-size:14px;
+    margin-bottom:5px;
+}
 
 /* ---------- 問題画面 ---------- */
 
-
 #timerMessage,
 #scoreMessage {
-
-
-    margin-bottom: 10px;
-
-
+    margin-bottom:10px;
 }
-
-
-
-/*
-   問題エリア
-   タイトル画面内では中央配置
-   中身だけ左寄せ
-*/
-
 
 .question-area {
-
-
-    width: 100%;
-
-
-    min-height: 220px;
-
-
-    margin-top: 20px;
-
-
+    width:100%;
+    min-height:220px;
+    margin-top:20px;
 }
-
-
-
-/*
-   問題文・コード表示
-*/
-
 
 .question-text {
-
-
-    width: 100%;
-
-
-    text-align: left;
-
-
-    white-space: pre-wrap;
-
-
-    line-height: 1.6;
-
-
-    font-size: 24px;
-
-
-    margin: 0;
-
-
+    width:100%;
+    text-align:left;
+    white-space:pre-wrap;
+    line-height:1.6;
+    font-size:24px;
+    margin:0;
 }
-
-
 
 /* ---------- 結果表示 ---------- */
 
-
 .result-area {
-
-
-    min-height: 50px;
-
-
-    margin-bottom: 10px;
-
-
-    font-size: 22px;
-
-
+    min-height:50px;
+    margin-bottom:10px;
+    font-size:22px;
 }
-
-
-
 
 /* ---------- 回答ボタン ---------- */
 
-
 .answer-area {
-
-
-    display: grid;
-
-
-    grid-template-columns: repeat(2, 220px);
-
-
-    justify-content: center;
-
-
-    gap: 10px;
-
-
+    display:grid;
+    grid-template-columns:repeat(2,220px);
+    justify-content:center;
+    gap:10px;
 }
 
-
-
 .answerButton {
+    width:220px;
+    margin:10px;
+}
+/* ---------- レスポンシブ対応 ---------- */
 
+@media screen and (max-width:600px) {
 
-    width: 220px;
+    #app {
+        margin:20px auto;
+        padding:10px;
+    }
 
+    .title-screen {
+        padding:30px 15px;
+        min-height:500px;
+    }
 
-    margin: 10px;
+    .title-screen h1 {
+        font-size:36px;
+    }
 
+    .main-button {
+        width:260px;
+        font-size:20px;
+    }
+
+    .game-card {
+        width:280px;
+        height:90px;
+        padding:10px 15px;
+    }
+
+    .game-icon {
+        width:55px;
+        height:55px;
+        font-size:18px;
+        margin-right:12px;
+    }
+
+    .game-text strong {
+        font-size:22px;
+    }
+
+    .game-text small {
+        font-size:13px;
+    }
+
+    .answer-area {
+        grid-template-columns:1fr;
+    }
+
+    .answerButton {
+        width:260px;
+    }
 
 }
