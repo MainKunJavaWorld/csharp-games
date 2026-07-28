@@ -1,0 +1,202 @@
+[
+    {
+        "question": "条件によって処理を分けたい場合に使うのは？",
+        "choices": [
+            "if",
+            "else if",
+            "else",
+            "for"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "「もし〜なら」という条件を作る場合に使うのは？",
+        "choices": [
+            "if",
+            "else if",
+            "else",
+            "for"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "条件分岐の分岐する条件を増やしたい場合に使うのは？",
+        "choices": [
+            "if",
+            "else if",
+            "else",
+            "for"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "ifの条件に当てはまらなかった場合、さらに別の条件を確認するときに使うのは？",
+        "choices": [
+            "if",
+            "else if",
+            "else",
+            "for"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "どの条件にも当てはまらない場合の処理を書くときに使うのは？",
+        "choices": [
+            "if",
+            "else if",
+            "else",
+            "for"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "条件分岐の最後に、条件以外の場合の処理を書くときに使うのは？",
+        "choices": [
+            "if",
+            "else if",
+            "else",
+            "for"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "繰り返し同じ処理を行いたい場合に使うのは？",
+        "choices": [
+            "if",
+            "else if",
+            "else",
+            "for"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "決められた回数だけ処理を繰り返したい場合に使うのは？",
+        "choices": [
+            "if",
+            "else if",
+            "else",
+            "for"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "繰り返し回数を変数で管理して処理したい場合に使うのは？",
+        "choices": [
+            "if",
+            "else if",
+            "else",
+            "for"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "初期値、条件式、増減式を指定して繰り返し処理を書く場合に使うのは？",
+        "choices": [
+            "if",
+            "else if",
+            "else",
+            "for"
+        ],
+        "answer": 3
+    },
+       {
+        "question": "次のプログラムの■に入るものを選びましょう。\n\nint score = 80;\n\nif (score >= 60)\n{\n    Console.WriteLine(\"合格\");\n}\n■\n{\n    Console.WriteLine(\"不合格\");\n}",
+        "choices": [
+            "if",
+            "else if",
+            "else",
+            "for"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "次のプログラムの■に入るものを選びましょう。\n\nint age = 15;\n\nif (age >= 18)\n{\n    Console.WriteLine(\"成人\");\n}\n■\n{\n    Console.WriteLine(\"未成年\");\n}",
+        "choices": [
+            "if",
+            "else if",
+            "else",
+            "for"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "次のプログラムの■に入るものを選びましょう。\n\nint score = 85;\n\nif (score >= 90)\n{\n    Console.WriteLine(\"A\");\n}\n■ (score >= 80)\n{\n    Console.WriteLine(\"B\");\n}",
+        "choices": [
+            "if",
+            "else if",
+            "else",
+            "for"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "次のプログラムの■に入るものを選びましょう。\n\nint number = 3;\n\nif (number == 1)\n{\n    Console.WriteLine(\"1\");\n}\n■ (number == 2)\n{\n    Console.WriteLine(\"2\");\n}",
+        "choices": [
+            "if",
+            "else if",
+            "else",
+            "for"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "次のプログラムの■に入るものを選びましょう。\n\n■ (int i = 0; i < 5; i++)\n{\n    Console.WriteLine(i);\n}",
+        "choices": [
+            "if",
+            "else if",
+            "else",
+            "for"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "次のプログラムの■に入るものを選びましょう。\n\n■ (int i = 1; i <= 10; i++)\n{\n    Console.WriteLine(i);\n}",
+        "choices": [
+            "if",
+            "else if",
+            "else",
+            "for"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "次のプログラムの■に入るものを選びましょう。\n\nint total = 0;\n\n■ (int i = 0; i < 3; i++)\n{\n    total += i;\n}",
+        "choices": [
+            "if",
+            "else if",
+            "else",
+            "for"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "次のプログラムの■に入るものを選びましょう。\n\nif (number > 0)\n{\n    Console.WriteLine(\"正\");\n}\n■\n{\n    Console.WriteLine(\"0以下\");\n}",
+        "choices": [
+            "if",
+            "else if",
+            "else",
+            "for"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "次のプログラムの■に入るものを選びましょう。\n\nint score = 85;\n\nif (score >= 90)\n{\n    Console.WriteLine(\"A\");\n}\n■ (score >= 70)\n{\n    Console.WriteLine(\"B\");\n}",
+        "choices": [
+            "if",
+            "else if",
+            "else",
+            "for"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "次のプログラムの■に入るものを選びましょう。\n\nint score = 75;\n\nif (score >= 90)\n{\n    Console.WriteLine(\"A\");\n}\nelse if (score >= 80)\n{\n    Console.WriteLine(\"B\");\n}\n■ (score >= 60)\n{\n    Console.WriteLine(\"C\");\n}",
+        "choices": [
+            "if",
+            "else if",
+            "else",
+            "for"
+        ],
+        "answer": 1
+    }
+] 
