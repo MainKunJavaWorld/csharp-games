@@ -99,8 +99,8 @@
         ],
         "answer": 3
     },
-       {
-        "question": "次のプログラムの■に入るものを選びましょう。\n\nint score = 80;\n\nif (score >= 60)\n{\n    Console.WriteLine(\"合格\");\n}\n■\n{\n    Console.WriteLine(\"不合格\");\n}",
+        {
+        "question": "次のプログラムの■に入るものを選びましょう。\n\nint score = 80;\n\nif (score >= 60)\n{\n    label1.Text = \"合格\";\n}\n■\n{\n    label1.Text = \"不合格\";\n}",
         "choices": [
             "if",
             "else if",
@@ -110,7 +110,7 @@
         "answer": 2
     },
     {
-        "question": "次のプログラムの■に入るものを選びましょう。\n\nint age = 15;\n\nif (age >= 18)\n{\n    Console.WriteLine(\"成人\");\n}\n■\n{\n    Console.WriteLine(\"未成年\");\n}",
+        "question": "次のプログラムの■に入るものを選びましょう。\n\nint age = 15;\n\nif (age >= 18)\n{\n    label1.Text = \"成人\";\n}\n■\n{\n    label1.Text = \"未成年\";\n}",
         "choices": [
             "if",
             "else if",
@@ -120,7 +120,7 @@
         "answer": 2
     },
     {
-        "question": "次のプログラムの■に入るものを選びましょう。\n\nint score = 85;\n\nif (score >= 90)\n{\n    Console.WriteLine(\"A\");\n}\n■ (score >= 80)\n{\n    Console.WriteLine(\"B\");\n}",
+        "question": "次のプログラムの■に入るものを選びましょう。\n\nint score = 85;\n\nif (score >= 90)\n{\n    label1.Text = \"A\";\n}\n■ (score >= 80)\n{\n    label1.Text = \"B\";\n}",
         "choices": [
             "if",
             "else if",
@@ -130,7 +130,7 @@
         "answer": 1
     },
     {
-        "question": "次のプログラムの■に入るものを選びましょう。\n\nint number = 3;\n\nif (number == 1)\n{\n    Console.WriteLine(\"1\");\n}\n■ (number == 2)\n{\n    Console.WriteLine(\"2\");\n}",
+        "question": "次のプログラムの■に入るものを選びましょう。\n\nint number = 3;\n\nif (number == 1)\n{\n    label1.Text = \"1\";\n}\n■ (number == 2)\n{\n    label1.Text = \"2\";\n}",
         "choices": [
             "if",
             "else if",
@@ -140,7 +140,7 @@
         "answer": 1
     },
     {
-        "question": "次のプログラムの■に入るものを選びましょう。\n\n■ (int i = 0; i < 5; i++)\n{\n    Console.WriteLine(i);\n}",
+        "question": "次のプログラムの■に入るものを選びましょう。\n\n■ (int i = 0; i < 5; i++)\n{\n    textBox1.Text += i;\n}",
         "choices": [
             "if",
             "else if",
@@ -150,7 +150,7 @@
         "answer": 3
     },
     {
-        "question": "次のプログラムの■に入るものを選びましょう。\n\n■ (int i = 1; i <= 10; i++)\n{\n    Console.WriteLine(i);\n}",
+        "question": "次のプログラムの■に入るものを選びましょう。\n\ntextBox1.Text = \"\";\n\n■ (int i = 1; i <= 10; i++)\n{\n    textBox1.Text += i;\n}",
         "choices": [
             "if",
             "else if",
@@ -160,7 +160,7 @@
         "answer": 3
     },
     {
-        "question": "次のプログラムの■に入るものを選びましょう。\n\nint total = 0;\n\n■ (int i = 0; i < 3; i++)\n{\n    total += i;\n}",
+        "question": "次のプログラムの■に入るものを選びましょう。\n\nint total = 0;\n\n■ (int i = 0; i < 3; i++)\n{\n    total += i;\n}\n\nlabel1.Text = total.ToString();",
         "choices": [
             "if",
             "else if",
@@ -170,7 +170,7 @@
         "answer": 3
     },
     {
-        "question": "次のプログラムの■に入るものを選びましょう。\n\nif (number > 0)\n{\n    Console.WriteLine(\"正\");\n}\n■\n{\n    Console.WriteLine(\"0以下\");\n}",
+        "question": "次のプログラムの■に入るものを選びましょう。\n\nint number = -5;\n\nif (number > 0)\n{\n    label1.Text = \"正の数\";\n}\n■\n{\n    label1.Text = \"0以下\";\n}",
         "choices": [
             "if",
             "else if",
@@ -180,7 +180,7 @@
         "answer": 2
     },
     {
-        "question": "次のプログラムの■に入るものを選びましょう。\n\nint score = 85;\n\nif (score >= 90)\n{\n    Console.WriteLine(\"A\");\n}\n■ (score >= 70)\n{\n    Console.WriteLine(\"B\");\n}",
+        "question": "次のプログラムの■に入るものを選びましょう。\n\nint score = 85;\n\nif (score >= 90)\n{\n    label1.Text = \"A\";\n}\n■ (score >= 70)\n{\n    label1.Text = \"B\";\n}",
         "choices": [
             "if",
             "else if",
@@ -190,7 +190,7 @@
         "answer": 1
     },
     {
-        "question": "次のプログラムの■に入るものを選びましょう。\n\nint score = 75;\n\nif (score >= 90)\n{\n    Console.WriteLine(\"A\");\n}\nelse if (score >= 80)\n{\n    Console.WriteLine(\"B\");\n}\n■ (score >= 60)\n{\n    Console.WriteLine(\"C\");\n}",
+        "question": "次のプログラムの■に入るものを選びましょう。\n\nint score = 75;\n\nif (score >= 90)\n{\n    label1.Text = \"A\";\n}\nelse if (score >= 80)\n{\n    label1.Text = \"B\";\n}\n■ (score >= 60)\n{\n    label1.Text = \"C\";\n}",
         "choices": [
             "if",
             "else if",
@@ -199,4 +199,4 @@
         ],
         "answer": 1
     }
-] 
+]

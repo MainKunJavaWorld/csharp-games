@@ -1,6 +1,6 @@
 [
     {
-        "question": "次のメソッドの定義で ■ は何？\n\n■ getScore()\n{\n    return 85;\n}",
+        "question": "次のメソッドの定義で ■ は何？\n\n■ GetScore()\n{\n    return 85;\n}",
         "choices": [
             "int",
             "double",
@@ -10,7 +10,7 @@
         "answer": 0
     },
     {
-        "question": "次のメソッドの定義で ■ は何？\n\n■ getYear()\n{\n    return 2026;\n}",
+        "question": "次のメソッドの定義で ■ は何？\n\n■ GetYear()\n{\n    return 2026;\n}",
         "choices": [
             "int",
             "double",
@@ -20,7 +20,7 @@
         "answer": 0
     },
     {
-        "question": "次のメソッドの定義で ■ は何？\n\n■ getNumber()\n{\n    return -10;\n}",
+        "question": "次のメソッドの定義で ■ は何？\n\n■ GetNumber()\n{\n    return -10;\n}",
         "choices": [
             "int",
             "double",
@@ -30,7 +30,7 @@
         "answer": 0
     },
     {
-        "question": "次のメソッドの定義で ■ は何？\n\n■ getCount()\n{\n    return 50;\n}",
+        "question": "次のメソッドの定義で ■ は何？\n\n■ GetCount()\n{\n    return 50;\n}",
         "choices": [
             "int",
             "double",
@@ -40,7 +40,7 @@
         "answer": 0
     },
     {
-        "question": "次のメソッドの定義で ■ は何？\n\n■ getPoint()\n{\n    return 100;\n}",
+        "question": "次のメソッドの定義で ■ は何？\n\n■ GetPoint()\n{\n    return 100;\n}",
         "choices": [
             "int",
             "double",
@@ -50,7 +50,7 @@
         "answer": 0
     },
     {
-        "question": "次のメソッドの定義で ■ は何？\n\n■ getAverage()\n{\n    return 75.5;\n}",
+        "question": "次のメソッドの定義で ■ は何？\n\n■ GetAverage()\n{\n    return 75.5;\n}",
         "choices": [
             "int",
             "double",
@@ -60,7 +60,7 @@
         "answer": 1
     },
     {
-        "question": "次のメソッドの定義で ■ は何？\n\n■ getPi()\n{\n    return 3.14;\n}",
+        "question": "次のメソッドの定義で ■ は何？\n\n■ GetPi()\n{\n    return 3.14;\n}",
         "choices": [
             "int",
             "double",
@@ -70,7 +70,7 @@
         "answer": 1
     },
     {
-        "question": "次のメソッドの定義で ■ は何？\n\n■ getTemperature()\n{\n    return 36.8;\n}",
+        "question": "次のメソッドの定義で ■ は何？\n\n■ GetTemperature()\n{\n    return 36.8;\n}",
         "choices": [
             "int",
             "double",
@@ -80,7 +80,7 @@
         "answer": 1
     },
     {
-        "question": "次のメソッドの定義で ■ は何？\n\n■ getPrice()\n{\n    return 2500.5;\n}",
+        "question": "次のメソッドの定義で ■ は何？\n\n■ GetPrice()\n{\n    return 2500.5;\n}",
         "choices": [
             "int",
             "double",
@@ -90,7 +90,7 @@
         "answer": 1
     },
     {
-        "question": "次のメソッドの定義で ■ は何？\n\n■ getWeight()\n{\n    return 62.8;\n}",
+        "question": "次のメソッドの定義で ■ は何？\n\n■ GetWeight()\n{\n    return 62.8;\n}",
         "choices": [
             "int",
             "double",
@@ -99,8 +99,8 @@
         ],
         "answer": 1
     },
-    {
-        "question": "次のメソッドの定義で ■ は何？\n\n■ getName()\n{\n    return \"Main\";\n}",
+        {
+        "question": "次のメソッドの定義で ■ は何？\n\n■ GetName()\n{\n    return \"Main\";\n}",
         "choices": [
             "int",
             "double",
@@ -110,7 +110,7 @@
         "answer": 2
     },
     {
-        "question": "次のメソッドの定義で ■ は何？\n\n■ getLanguage()\n{\n    return \"C#\";\n}",
+        "question": "次のメソッドの定義で ■ は何？\n\n■ GetLanguage()\n{\n    return \"C#\";\n}",
         "choices": [
             "int",
             "double",
@@ -120,7 +120,7 @@
         "answer": 2
     },
     {
-        "question": "次のメソッドの定義で ■ は何？\n\n■ getMessage()\n{\n    return \"こんにちは\";\n}",
+        "question": "次のメソッドの定義で ■ は何？\n\n■ GetMessage()\n{\n    return \"こんにちは\";\n}",
         "choices": [
             "int",
             "double",
@@ -130,7 +130,7 @@
         "answer": 2
     },
     {
-        "question": "次のメソッドの定義で ■ は何？\n\n■ getTitle()\n{\n    return \"C#ゲーム\";\n}",
+        "question": "次のメソッドの定義で ■ は何？\n\n■ GetTitle()\n{\n    return \"C#ゲーム\";\n}",
         "choices": [
             "int",
             "double",
@@ -140,7 +140,7 @@
         "answer": 2
     },
     {
-        "question": "次のメソッドの定義で ■ は何？\n\n■ getCountry()\n{\n    return \"Japan\";\n}",
+        "question": "次のメソッドの定義で ■ は何？\n\n■ GetCountry()\n{\n    return \"Japan\";\n}",
         "choices": [
             "int",
             "double",
@@ -150,7 +150,7 @@
         "answer": 2
     },
     {
-        "question": "次のメソッドの定義で ■ は何？\n\n■ isClear()\n{\n    return true;\n}",
+        "question": "次のメソッドの定義で ■ は何？\n\n■ IsClear()\n{\n    return true;\n}",
         "choices": [
             "int",
             "double",
@@ -160,7 +160,7 @@
         "answer": 3
     },
     {
-        "question": "次のメソッドの定義で ■ は何？\n\n■ isOpen()\n{\n    return false;\n}",
+        "question": "次のメソッドの定義で ■ は何？\n\n■ IsOpen()\n{\n    return false;\n}",
         "choices": [
             "int",
             "double",
@@ -170,7 +170,7 @@
         "answer": 3
     },
     {
-        "question": "次のメソッドの定義で ■ は何？\n\n■ checkResult()\n{\n    return true;\n}",
+        "question": "次のメソッドの定義で ■ は何？\n\n■ CheckResult()\n{\n    return true;\n}",
         "choices": [
             "int",
             "double",
@@ -180,7 +180,7 @@
         "answer": 3
     },
     {
-        "question": "次のメソッドの定義で ■ は何？\n\n■ canPlay()\n{\n    return false;\n}",
+        "question": "次のメソッドの定義で ■ は何？\n\n■ CanPlay()\n{\n    return false;\n}",
         "choices": [
             "int",
             "double",
@@ -190,7 +190,7 @@
         "answer": 3
     },
     {
-        "question": "次のメソッドの定義で ■ は何？\n\n■ hasItem()\n{\n    return true;\n}",
+        "question": "次のメソッドの定義で ■ は何？\n\n■ HasItem()\n{\n    return true;\n}",
         "choices": [
             "int",
             "double",
